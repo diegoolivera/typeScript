@@ -5,6 +5,12 @@ function mayor(a:number,b:number):number{
     return a > b ? a : b;
 }
 
+function saludar(nom:string):void{
+    console.log("hola",nom)
+}
+
+saludar("invitado")
+
 let resultado = mayor(1,5);
 console.log("el mayor es:",resultado)
 

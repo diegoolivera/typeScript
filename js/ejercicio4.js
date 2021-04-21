@@ -3,6 +3,10 @@
 function mayor(a, b) {
     return a > b ? a : b;
 }
+function saludar(nom) {
+    console.log("hola", nom);
+}
+saludar("invitado");
 let resultado = mayor(1, 5);
 console.log("el mayor es:", resultado);
 //funciones anonimas
