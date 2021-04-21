@@ -27,11 +27,11 @@ let nombreUsuario:string ;
 
 nombreUsuario = "Diego";
 let y:string = nombreUsuario ?? "incio sesion";
-console.log(y);
+console.log(y);  // muestra "Diego"
 
 let valorNulo:null = null;
 let z:string = valorNulo ?? "incio sesion";
-console.log(z)
+console.log(z) // muestra "inicio sesion"
 
 
 

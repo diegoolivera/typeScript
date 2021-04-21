@@ -20,8 +20,8 @@ console.log("el lenguaje que estoy utilizando:", x);
 let nombreUsuario;
 nombreUsuario = "Diego";
 let y = nombreUsuario !== null && nombreUsuario !== void 0 ? nombreUsuario : "incio sesion";
-console.log(y);
+console.log(y); // muestra "Diego"
 let valorNulo = null;
 let z = valorNulo !== null && valorNulo !== void 0 ? valorNulo : "incio sesion";
-console.log(z);
+console.log(z); // muestra "inicio sesion"
 //# sourceMappingURL=ejercicio3.js.map
